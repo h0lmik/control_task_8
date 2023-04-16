@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'NunitoRegular';
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+body {
+    font-family: NunitoRegular, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #F8F8FA 50%, #FFFFFB 50%);
+}
+
+.container {
+    max-width: 1091px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 118px 0;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form {
+    margin-right: 85px;
+    margin-left: 8px;
+}
+
+.form_title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.form_text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 69px;
+}
+
+.form_label {
+    font-size: 16px;
+    line-height: 25px;
+    color: #C6C6C4;
+}
+
+.form_input {
+    display: block;
+    width: 453px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #C6C6C4;
+    padding: 3px 0;
+    color: #323232;
+    margin-bottom: 20px;
+    outline: none;
+    font-family: NunitoRegular, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.form_input_password {
+    margin-bottom: 31px;
+}
+
+.form_checkbox {
+    margin-right: 7px;
+    margin-left: 2px;
+}
+
+.form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 7px;
+}
+
+.btn {
+    background: #DD3142;
+    box-sizing: border-box;
+    border: 1px solid #DD3142;
+    border-radius: 40px;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 210px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.have_account {
+    text-align: center;
+    margin-top: 44px;
+}
+
+.account {
+    text-decoration: none;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-left: 14px;
+}
+
+.image {
+    max-width: 543px;
+    margin-bottom: 77px;
+    margin-left: 11px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(to left, #F8F8FA 50%, #FFFFFB 50%);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 450px;
+    top: 35%;
+}
+
+.popup_text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin: 25px 0;
+}
+
+.popup.open {
+    display: block;
+}

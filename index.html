@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <img class="header_image" src="images/homeWorks.png" alt="logo" id="Logo">
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <form class="form">
+            <h1 class="form_title">Get your free account</h1>
+            <div class="form_text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+                anytime.
+            </div>
+            <label class="form_label name">
+                Full Name
+                <input type="text" class="form_input" id="fullName">
+            </label>
+            <label class="form_label">
+                Your username
+                <input type="text" class="form_input" id="userName">
+            </label>
+            <label class="form_label email">
+                E-mail
+                <input type="text" class="form_input" id="email">
+            </label>
+            <label class="form_label">
+                Password
+                <input type="password" class="form_input" id="password">
+            </label>
+            <label class="form_label repeat_password">
+                Repeat Password
+                <input type="password" class="form_input input_password" id="repeat_password">
+            </label>
+            <label class="form_label_checkbox">
+                <input type="checkbox" class="form_checkbox" id="checkbox">
+                Agree to our Terms of Service and Privacy Statement
+            </label>
+            <div class="form_btn">
+                <button type="button" class="btn" id="btn">Sign Up</button>
+            </div>
+            <div class="have_account">
+                <a href="#" class="account" id="account">Already have an account?</a>
+            </div>
+        </form>
+        <div class="image">
+            <img src="images/image.png" alt="Image">
+        </div>
+    </div>
+</main>
+
+<section class="popup" id="popup">
+    <div class="container">
+        <span class="popup_close" id="popup_close"></span>
+        <p class="popup_text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+        <button class="btn" id="popup_btn">OK</button>
+    </div>
+</section>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
