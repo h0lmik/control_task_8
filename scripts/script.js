@@ -96,3 +96,4 @@ window.onload = function () {
     consent.addEventListener('click', fn);
 }
 console.log('hello!')
+console.log('Привет')
