@@ -95,3 +95,4 @@ window.onload = function () {
     popupBtn.addEventListener('click', fn);
     consent.addEventListener('click', fn);
 }
+console.log('Привет, мир!')
