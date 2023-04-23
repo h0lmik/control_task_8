@@ -9,7 +9,7 @@ window.onload = function () {
     let btnSubmit = document.getElementById('btn');
     let popupOpen = document.getElementById('popup');
 
-//комментарий/
+//комментарий//
     inputFullName.oninput = function () {
         this.value = this.value.replace(/[0-9]/g, '');
     }
